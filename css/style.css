@@ -958,6 +958,24 @@ body {
     font-size: 13px;
   }
 }
+@media (max-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
+
+  .experience__column {
+    width: 330px;
+  }
+
+  .experience__block_title {
+    font-size: 16px;
+  }
+
+  .experience__block_location {
+    max-width: 325px;
+    font-size: 13px;
+  }
+}
 @media (max-width: 320px) {
   .container {
     max-width: 320px;
@@ -1453,6 +1471,28 @@ body {
 
   .education__block_title {
     font-size: 16px;
+  }
+
+  .education__block_location {
+    max-width: 325px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    max-width: 360px;
+  }
+
+  .education__column {
+    width: 330px;
+  }
+
+  .education__block_title {
+    font-size: 16px;
+  }
+
+  .education__block_subtitle {
+    margin-left: 10px;
   }
 
   .education__block_location {
