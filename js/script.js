@@ -73,7 +73,7 @@ if (iconMenu) {
 }
 
 const myYearOfBirth = 1987;
-let myAge = new Date().getFullYear() - myYearOfBirth - 1;
+let myAge = new Date().getFullYear() - myYearOfBirth;
 
 function showMyAge() {
     document.getElementsByClassName('about__info')[1].lastElementChild.innerText = ' ' + myAge + ' years';
