@@ -71,3 +71,13 @@ if (iconMenu) {
         menuBody.classList.toggle('_active')
     })
 }
+
+const myYearOfBirth = 1987;
+let myAge = new Date().getFullYear() - myYearOfBirth - 1;
+
+function showMyAge() {
+    document.getElementsByClassName('about__info')[1].lastElementChild.innerText = ' ' + myAge + ' years';
+}
+
+showMyAge();
+
