@@ -78,7 +78,12 @@
                                         <span class="bold">Date of birth:</span><span> 28 January 1987</span>
                                     </div>
                                     <div class="about__info">
-                                        <span class="bold">Age:</span><span> 37 years</span>
+                                        <span class="bold">Age:</span>
+                                            <script>
+                                                const yearOfBirth = 1987;
+                                                let myAge = new Date().getFullYear() - yearOfBirth;
+                                                document.body.innerHTML = "<span>" + myAge + " years</span>"
+                                            </script>
                                     </div>
                                     <div class="about__info span-place">
                                         <span class="bold">Place of birth:</span><span> Moldova, Chisinau</span>
